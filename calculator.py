@@ -1,4 +1,6 @@
 #Calculator
-x = input("Enter number 1: ")
-y = input("Enter number 2: ")
+x = int(input("Enter number 1: "))
+y = int(input("Enter number 2: "))
 symbol = input("Enter opetation: ")
+if symbol ==  "+":
+    print(result = x+y)
